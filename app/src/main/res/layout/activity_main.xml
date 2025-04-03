@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/teal">
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adivina_el_dado"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Puntaje y Tiempo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvPuntaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/puntaje_0"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvTiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiempo_30s"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <!-- Botones para elegir número -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_1"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_2"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_3"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_4"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_5"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/_6"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <!-- Imagen del dado -->
+    <ImageView
+        android:id="@+id/diceImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dado1"
+        android:contentDescription="@string/dado"/>
+
+    <!-- Botón para lanzar -->
+    <Button
+        android:id="@+id/btnLanzar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lanzar_dado"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Resultado -->
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mi Primera App</string>
+    <string name="iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="has_olvidado_tu_contrase_a">¿Has olvidado tu contraseña?</string>
+    <string name="lanzar_dado">Lanzar Dado</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_6">6</string>
+    <string name="adivina_el_n_mero_del_dado">Adivina el Número del Dado</string>
+    <string name="dado">Dado</string>
+    <string name="puntaje_0">Puntaje: 0</string>
+    <string name="adivina_el_dado">Adivina el Dado</string>
+    <string name="tiempo_30s">Tiempo: 30s</string>
+</resources>
